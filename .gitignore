@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/UniversityEnrollment/Class.cs
+/UniversityEnrollment/Course.cs
+/UniversityEnrollment/Department.cs
+/UniversityEnrollment/Department.cs
+/UniversityEnrollment/Department.cs
+/UniversityEnrollment/Course.cs
+/UniversityEnrollment/Class.cs
