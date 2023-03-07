@@ -1,16 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="UniversityEnrollment.Enrollment">
-    <Position X="8.5" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAABEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Enrollment.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="InstIdNumber" />
-      <Field Name="Subjects" />
-    </ShowAsCollectionAssociation>
-  </Class>
   <Class Name="UniversityEnrollment.Instructor">
     <Position X="8" Y="4.75" Width="1.5" />
     <TypeIdentifier>
@@ -19,11 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="UniversityEnrollment.Student">
-    <Position X="4.5" Y="6.25" Width="1.5" />
+    <Position X="5.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAAA=</HashCode>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Student.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CourseName" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="UniversityEnrollment.User">
     <Position X="6.25" Y="0.5" Width="1.5" />
@@ -32,10 +24,30 @@
       <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="System.String" Collapsed="true">
-    <Position X="11" Y="3.75" Width="1.5" />
-    <TypeIdentifier />
-    <Lollipop Position="0.2" />
+  <Class Name="UniversityEnrollment.Subject">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQACAAAAA=</HashCode>
+      <FileName>Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UniversityEnrollment.Class">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABCAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="InstIdNumber" />
+      <Field Name="OfferingNum" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="UniversityEnrollment.Course">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
