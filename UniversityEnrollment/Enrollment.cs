@@ -11,11 +11,12 @@ namespace UniversityEnrollment
     {
         public Student StudIdNumber;
         public Instructor InstIdNumber;
-        public ArrayList Subjects;
-        public Enrollment(Student studIdnumber, Instructor instIdnumber)
+        public List <string> Subjects;
+        public Enrollment(Student studIdnumber, Instructor instIdnumber, List <string> subjects)
         {
             this.StudIdNumber = studIdnumber;
             this.InstIdNumber = instIdnumber;
+            this.Subjects = subjects;
         }
     }
 }
