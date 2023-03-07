@@ -6,27 +6,15 @@ using System.Threading.Tasks;
 
 namespace UniversityEnrollment
 {
-    internal class Student
+    public class Student: User
     {
-        private string FirstName {  get; set; }
-        private string MiddleName { get; set; }
-        private string LastName { get; set; }
-        private string Email { get; set; }
-        public string IDnumber { get;private set; }
-        private string EmailAddress { get; set; }
-        private string Address { get; set; }
-        public string Program { get;private set; }
+        public string DegreePogram { get; private set; }
+        public int YearLevel { get; set; }
 
-        public Student(string firstName, string middleName, string lastName, string email, string iDnumber, string emailAddress, string address, string program)
+        public Student(string firstName, string middleName, string lastName, DateTime birthdate, string address, string emailAddress, string userName, string password, string iDnumber, string degreePogram, int yearLevel) : base(firstName, middleName, lastName, birthdate, address, emailAddress, userName, password, iDnumber)
         {
-            this.FirstName = firstName;
-            this.MiddleName = middleName;
-            this.LastName = lastName;
-            this.Email = email;
-            this.IDnumber = iDnumber;
-            this.EmailAddress = emailAddress;
-            this.Address = address;
-            this.Program = program;
+            this.DegreePogram = degreePogram;
+            this.YearLevel = yearLevel;
         }
     }
 }
