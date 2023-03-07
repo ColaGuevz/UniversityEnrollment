@@ -6,10 +6,10 @@
       <HashCode>AAAABEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Enrollment.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
+    <ShowAsCollectionAssociation>
       <Field Name="InstIdNumber" />
-      <Field Name="StudIdNumber" />
-    </ShowAsAssociation>
+      <Field Name="Subjects" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="UniversityEnrollment.Instructor">
     <Position X="8" Y="4.75" Width="1.5" />
@@ -31,6 +31,11 @@
       <HashCode>AAAAAEAAAAAAQAAAAAAQAAQAAAAAAAACAQAAAgAAAAg=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -10,9 +10,9 @@ namespace UniversityEnrollment
     public class Enrollment
     {
         public Student StudIdNumber;
-        public Instructor InstIdNumber;
+        public List <Instructor> InstIdNumber;
         public List <string> Subjects;
-        public Enrollment(Student studIdnumber, Instructor instIdnumber, List <string> subjects)
+        public Enrollment(Student studIdnumber, List <Instructor> instIdnumber, List <string> subjects)
         {
             this.StudIdNumber = studIdnumber;
             this.InstIdNumber = instIdnumber;
